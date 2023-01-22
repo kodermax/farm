@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Farmer</string>
+    <string name="app_name">Ферма</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="delete">Удалить</string>
@@ -552,7 +552,7 @@
     <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
     <string name="next">Далее</string>
     <string name="share">Поделиться</string>
-    <string name="invalid_session_id">Неверный Farmer ID</string>
+    <string name="invalid_session_id">Неверный ID</string>
     <string name="cancel">Отмена</string>
     <string name="your_session_id">Ваш Session ID</string>
     <string name="activity_landing_title_2">Здесь начинается Session...</string>

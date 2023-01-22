@@ -267,7 +267,7 @@ android {
             def postFix = abiPostFix.get(abiName, 0)
 
             if (postFix >= postFixSize) throw new AssertionError("postFix is too large")
-            output.outputFileName = output.outputFileName = "farmer-${variant.versionName}-${abiName}.apk"
+            output.outputFileName = output.outputFileName = "farm-${variant.versionName}-${abiName}.apk"
             output.versionCodeOverride = canonicalVersionCode * postFixSize + postFix
         }
     }

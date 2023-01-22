@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Farmer</string>
+    <string name="app_name" translatable="false">Ферма</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="delete">Delete</string>
@@ -557,10 +557,10 @@
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="next">Next</string>
     <string name="share">Share</string>
-    <string name="invalid_session_id">Invalid Session ID</string>
+    <string name="invalid_session_id">Invalid ID</string>
     <string name="cancel">Cancel</string>
-    <string name="your_session_id">Your Farmer ID</string>
-    <string name="activity_landing_title_2">Your Session begins here...</string>
+    <string name="your_session_id">Your ID</string>
+    <string name="activity_landing_title_2">Your Farm begins here...</string>
     <string name="activity_landing_register_button_title">Create Session ID</string>
     <string name="activity_landing_restore_button_title">Continue Your Session</string>
     <string name="view_fake_chat_bubble_1">What\'s Session?</string>
@@ -568,8 +568,8 @@
     <string name="view_fake_chat_bubble_3">So it doesn\'t collect my personal information or my conversation metadata? How does it work?</string>
     <string name="view_fake_chat_bubble_4">Using a combination of advanced anonymous routing and end-to-end encryption technologies.</string>
     <string name="view_fake_chat_bubble_5">Friends don\'t let friends use compromised messengers. You\'re welcome.</string>
-    <string name="activity_register_title">Say hello to your Farmer ID</string>
-    <string name="activity_register_explanation">Your Farmer ID is the unique address people can use to contact you on Session. With no connection to your real identity, your Session ID is totally anonymous and private by design.</string>
+    <string name="activity_register_title">Say hello to your Farm ID</string>
+    <string name="activity_register_explanation">Your Farm ID is the unique address people can use to contact you on Session. With no connection to your real identity, your Session ID is totally anonymous and private by design.</string>
     <string name="activity_restore_title">Restore your account</string>
     <string name="activity_restore_explanation">Enter the recovery phrase that was given to you when you signed up to restore your account.</string>
     <string name="activity_restore_seed_edit_text_hint">Enter your recovery phrase</string>
@@ -588,7 +588,7 @@
     <string name="activity_home_conversation_deleted_message">Conversation deleted</string>
     <string name="activity_seed_title">Your Recovery Phrase</string>
     <string name="activity_seed_title_2">Meet your recovery phrase</string>
-    <string name="activity_seed_explanation">Your recovery phrase is the master key to your Farmer ID — you can use it to restore your Session ID if you lose access to your device. Store your recovery phrase in a safe place, and don\'t give it to anyone.</string>
+    <string name="activity_seed_explanation">Your recovery phrase is the master key to your Farm ID — you can use it to restore your Session ID if you lose access to your device. Store your recovery phrase in a safe place, and don\'t give it to anyone.</string>
     <string name="activity_seed_reveal_button_title">Hold to reveal</string>
     <string name="view_seed_reminder_title">You\'re almost finished! 80%</string>
     <string name="view_seed_reminder_subtitle_1">Secure your account by saving your recovery phrase</string>
