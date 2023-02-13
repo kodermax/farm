@@ -44,7 +44,7 @@ class BackgroundPollWorker(val context: Context, params: WorkerParameters) : Wor
     }
 
     override fun doWork(): Result {
-        if (TextSecurePreferences.getLocalNumber(context) == null) {
+        if (TextSecurePreferences.getLocalNumber(context) == null || !TextSecurePreferences.hasSeenWelcomeScreen(context)) {
             Log.v(TAG, "User not registered yet.")
             return Result.failure()
         }
@@ -60,7 +60,7 @@ class BackgroundPollWorker(val context: Context, params: WorkerParameters) : Wor
                     // FIXME: Using a job here seems like a bad idea...
                     MessageReceiveParameters(envelope.toByteArray(), serverHash, null)
                 }
-                BatchMessageReceiveJob(params).executeAsync()
+                BatchMessageReceiveJob(params).executeAsync("background")
             }
             promises.add(dmsPromise)
 
